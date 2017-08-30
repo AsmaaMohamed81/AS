@@ -1,0 +1,221 @@
+<ScrollView android:layout_width="match_parent" android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="الصف الاول"
+        android:layout_marginBottom="10dp"
+        android:textSize="25dp"/>
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/t1"
+        android:shrinkColumns="*"  android:stretchColumns="*"
+       >
+    <!-- Row 1 with single column -->
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/TextView5"
+            android:textSize="25dp"
+            android:layout_weight="1" android:background="#ffffff"
+            android:textColor="#000000"   android:text=" فريدة حسين"
+            android:padding="20dip" android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TextView1"
+            android:text="اسم الطالب :"
+            android:textSize="25dp"
+            android:layout_weight="1" android:background="#bde6db"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+
+
+
+        <!--android:layout_span="3"-->
+
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+
+
+        <TextView
+            android:textSize="25dp"
+            android:id="@+id/TextView15"
+            android:layout_weight="1" android:background="#ffffff"
+            android:textColor="#000000"  android:text="2000"
+            android:padding="20dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/TextView14"
+            android:text="     المبلغ :     "
+            android:textSize="25dp"
+            android:layout_weight="1" android:background="#bde6db"
+            android:textColor="#000000"
+            android:padding="20dip" android:gravity="center"/>
+
+    </TableRow>
+    <!-- Row 2 with 3 columns -->
+    <TableRow
+        android:layout_marginTop="20dp"
+        android:id="@+id/tableRow1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_weight="1" android:background="#ffffff"
+            android:textColor="#000000" android:text="1000"
+            android:textSize="25dp"
+            android:padding="20dip" android:gravity="center"/>
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_weight="1" android:background="#bde6db"
+            android:textSize="25dp"
+            android:textColor="#000000"
+            android:text="المدفوع : "
+
+            android:padding="20dip" android:gravity="center"/>
+
+    </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:id="@+id/tableRow"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/TextView11"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000" android:text="1000"
+                android:textSize="25dp"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView22"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:text="المتبقي : "
+
+                android:padding="20dip" android:gravity="center"/>
+
+        </TableRow>
+</TableLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" الضف الثانى"
+        android:textSize="25dp"
+        android:layout_marginBottom="10dp"/>
+
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/t2"
+        android:shrinkColumns="*"  android:stretchColumns="*"
+        >
+        <!-- Row 1 with single column -->
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="350dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/TextView55"
+                android:textSize="25dp"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"   android:text=" فريدة حسين"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView54"
+                android:text="اسم الطالب :"
+                android:textSize="25dp"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+
+
+
+            <!--android:layout_span="3"-->
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+
+
+            <TextView
+                android:textSize="25dp"
+                android:id="@+id/TextView17"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"  android:text="2000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView16"
+                android:text="     المبلغ :     "
+                android:textSize="25dp"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+
+        </TableRow>
+        <!-- Row 2 with 3 columns -->
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:id="@+id/tableRow13"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/TextView44"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000" android:text="1000"
+                android:textSize="25dp"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView33"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:text="المدفوع : "
+
+                android:padding="20dip" android:gravity="center"/>
+
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="20dp"
+            android:id="@+id/tableRow5"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000" android:text="1000"
+                android:textSize="25dp"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView23"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textSize="25dp"
+                android:textColor="#000000"
+                android:text="المتبقي : "
+
+                android:padding="20dip" android:gravity="center"/>
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout></ScrollView>

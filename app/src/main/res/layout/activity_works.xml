@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+    <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+   <!-- <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/t1"
+        android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+        &lt;!&ndash; Row 1 with single column &ndash;&gt;
+        <TableRow
+            android:layout_height="50dp"
+            android:layout_width="350dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text=" الخميس"
+                android:background="#bde6db"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="الاربعاء"
+                android:background="#ffffff"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="الثلاثاء"
+                android:background="#bde6db"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="الاثنين "
+                android:background="#ffffff"
+                android:textColor="#000"/>
+
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="الاحد "
+                android:background="#bde6db"
+                android:textColor="#000"/>
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="18dp" android:text="الوقت "
+                android:background="#ffffff"
+                android:textColor="#000"/>
+
+            &lt;!&ndash;android:layout_span="3"&ndash;&gt;
+
+        </TableRow>
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/TextView14"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView15"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView16"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView17"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView18"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView19"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+        &lt;!&ndash; Row 2 with 3 columns &ndash;&gt;
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView02"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView03"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView04"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView05"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView06"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+
+        &lt;!&ndash; Row 3 with 2 columns &ndash;&gt;
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/TextView07"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView08"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView09"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView10"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView011"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView012"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow11"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/TextView21"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView12"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView13"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView111"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView112"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView25"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+
+        &lt;!&ndash; Row 3 with 2 columns &ndash;&gt;
+        <TableRow
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/TextView34"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView35"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView36"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/TextView40"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView41"
+                android:layout_weight="1" android:background="#ffffff"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+            <TextView
+                android:id="@+id/TextView27"
+                android:layout_weight="1" android:background="#bde6db"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"/>
+        </TableRow>
+    </TableLayout>-->
+</LinearLayout>

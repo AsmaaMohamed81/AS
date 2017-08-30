@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.elashry.aseer.Activities.Home"
+    >
+
+    <Button
+        android:text="تسجيل الخروج"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_out"
+        android:backgroundTint="#1b7c75"
+        android:layout_width="300dp"
+        android:textColor="#f5fafa"
+        android:textStyle="bold"
+        android:textSize="35dp"
+        android:layout_marginBottom="23dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+    <com.szugyi.circlemenu.view.CircleLayout
+        android:id="@+id/circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:isRotating="false"
+        app:radius="103dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <com.szugyi.circlemenu.view.CircleImageView
+            style="@style/large"
+            android:id="@+id/apsent"
+            android:src="@drawable/icon10"
+            app:name="غياب الطلاب"
+            />
+
+        <com.szugyi.circlemenu.view.CircleImageView
+            style="@style/large"
+            android:id="@+id/homework"
+            android:src="@drawable/icon2"
+            app:name="خطة الواجبات الأسبوعية"
+            />
+
+        <com.szugyi.circlemenu.view.CircleImageView
+            style="@style/large"
+            android:id="@+id/activity"
+            android:src="@drawable/icon3"
+            app:name="أنشطة المدرسة"
+
+            />
+
+        <com.szugyi.circlemenu.view.CircleImageView
+            style="@style/large"
+            android:id="@+id/news"
+            android:src="@drawable/icon4"
+            app:name="اخبار المدرسة"
+
+            />
+
+        <com.szugyi.circlemenu.view.CircleImageView
+            style="@style/large"
+            android:id="@+id/table"
+            android:src="@drawable/icon5"
+            app:name="جدول الحصص"
+
+            />
+
+        <com.szugyi.circlemenu.view.CircleImageView
+            style="@style/large"
+            android:id="@+id/arrive"
+            android:src="@drawable/icon6"
+            app:name="الوصول للمدرسة"
+
+            android:layout_toRightOf="@+id/circleImageView"
+            android:layout_toEndOf="@+id/circleImageView"/>
+
+        <com.szugyi.circlemenu.view.CircleImageView
+            style="@style/large"
+            android:id="@+id/sharf"
+            android:src="@drawable/icon7"
+            app:name="لوحة الشرف"
+
+            />
+
+        <com.szugyi.circlemenu.view.CircleImageView
+            style="@style/large"
+            android:id="@+id/rsoom"
+            android:src="@drawable/icon8"
+            app:name="الرسوم المدرسية"
+
+            />
+
+        <com.szugyi.circlemenu.view.CircleImageView
+            style="@style/large"
+            android:id="@+id/state"
+            android:src="@drawable/icon9"
+            app:name="حالة الطلاب التعليمية"
+
+            />
+
+    </com.szugyi.circlemenu.view.CircleLayout>
+    <!--<ImageView-->
+    <!--android:layout_width="45dp"-->
+    <!--android:layout_height="45dp"-->
+    <!--app:srcCompat="@drawable/mss"-->
+    <!--android:layout_marginLeft="180dp"-->
+    <!--android:layout_marginTop="130dp"-->
+    <!--android:id="@+id/imageView"-->
+    <!--/>-->
+
+
+</RelativeLayout>
